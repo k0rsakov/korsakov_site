@@ -1,3 +1,11 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+:root:root {
+  --font-interface: "Fira Code", monospace;
+}
+
+body,
+body *:not(.katex):not(.katex *) {
+  font-family: "Fira Code", monospace !important;
+}
